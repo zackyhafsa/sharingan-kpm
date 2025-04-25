@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="flex justify-between px-[8%] text-amber-900 items-center py-4 shadow-sm fixed top-0 right-0 left-0 z-50 bg-white"
+    >
+      <h1 class="font-bold text-2xl">Kopi Sharingan</h1>
+      <ul class="flex gap-3 text-lg font-semibold">
+        <li><a href="#hero">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#product">Produk</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero -->
+    <section
+      id="hero"
+      class="h-screen w-full bg-[url('img/kafe.jpg')] bg-center bg-cover bg-no-repeat flex justify-center items-center text-center"
+    >
+      <div class="h-screen w-full absolute bg-black/45"></div>
+      <div class="text-white absolute">
+        <h1 class="text-6xl font-bold mb-2 text-amber-500">
+          Rasakan Cita Rasa <span class="block text-white">Kopi Nusantara</span>
+        </h1>
+        <p class="text-lg mb-4">
+          Kopi premium dari tanah Indonesia, dipetik dengan cinta, disajikan dengan kehangatan.
+        </p>
+        <a href="#" class="bg-amber-900 text-white px-5 py-3 text-lg rounded-full">Jelajahi</a>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- about -->
+    <section id="about" class="h-screen w-full flex justify-center items-center">
+      <div class="w-[45rem] text-center text-lg">
+        <h1 class="font-bold text-4xl text-amber-800 mb-2">Tentang Kami</h1>
+        <p class="text-amber-900">
+          Kopi Nusantara lahir dari semangat untuk menghadirkan kopi terbaik Indonesia ke seluruh
+          dunia. Kami bekerja langsung dengan petani lokal untuk memastikan kualitas biji kopi
+          terbaik, diproses dengan metode tradisional yang menjaga cita rasa autentik.
+        </p>
+        <div class="flex justify-center gap-10 mt-5">
+          <div>
+            <img src="img/kopi1.jpg" alt="" class="w-52 rounded-full" />
+            <p class="text-amber-900 font-semibold">Menggugah Selera</p>
+          </div>
+          <div>
+            <img src="img/kopi2.jpg" alt="" class="w-52 rounded-full" />
+            <p class="text-amber-900 font-semibold">Roasting Tradisional</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- product -->
+    <section id="product" class="h-screen w-full flex items-center justify-center bg-amber-100">
+      <div>
+        <h1 class="font-bold text-4xl text-amber-800 mb-5 text-center">Produk Unggulan</h1>
+        <div class="flex gap-3">
+          <div
+            class="w-96 border border-slate-300 p-2 rounded-md text-amber-900 bg-white space-y-2 shadow-md"
+          >
+            <img src="img/kopi3.jpg" alt="" class="rounded-md" />
+            <h1 class="font-bold text-xl">Kopi Aceh</h1>
+            <p class="text-amber-900">
+              Cita rasa kaya dengan aroma bunga dan buah, cocok untuk pecinta kopi hitam.
+            </p>
+            <p class="font-bold text-lg">Rp. 12.000</p>
+          </div>
+          <div
+            class="w-96 border border-slate-300 p-2 rounded-md text-amber-900 bg-white space-y-2 shadow-md"
+          >
+            <img src="img/kopi4.jpg" alt="" class="rounded-md" />
+            <h1 class="font-bold text-xl">Kopi Aceh</h1>
+            <p class="text-amber-900">
+              Cita rasa kaya dengan aroma bunga dan buah, cocok untuk pecinta kopi hitam.
+            </p>
+            <p class="font-bold text-lg">Rp. 12.000</p>
+          </div>
+          <div
+            class="w-96 border border-slate-300 p-2 rounded-md text-amber-900 bg-white space-y-2 shadow-md"
+          >
+            <img src="img/kopi5.jpg" alt="" class="rounded-md" />
+            <h1 class="font-bold text-xl">Kopi Aceh</h1>
+            <p class="text-amber-900">
+              Cita rasa kaya dengan aroma bunga dan buah, cocok untuk pecinta kopi hitam.
+            </p>
+            <p class="font-bold text-lg">Rp. 12.000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product end -->
+
+    <!-- footer -->
+    <footer id="contact" class="py-10 bg-amber-900 text-white text-center space-y-3">
+      <h1 class="font-bold text-2xl">Hubungi Kami</h1>
+      <p class="text-lg">Email: info@kopinusantara.com | Telp: +62 123 456 789</p>
+      <p class="text-lg">&copy 2025 Kopi Nusantara. Semua hak dilindungi.</p>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
